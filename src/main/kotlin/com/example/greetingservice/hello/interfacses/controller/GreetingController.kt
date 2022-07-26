@@ -14,7 +14,7 @@ class GreetingController {
         val name = helloReq.name
         return CommonResponse(
             statusCode = 200,
-            message = "H2 $name"
+            message = "H3 $name"
         )
     }
 }
