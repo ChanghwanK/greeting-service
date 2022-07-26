@@ -1,4 +1,4 @@
-package com.example.greetingservice.hello.interfaces.controller
+package com.example.greetingservice.hello.interfacses.controller
 
 import com.example.greetingservice.hello.interfacses.dto.CommonResponse
 import com.example.greetingservice.hello.interfacses.dto.GreetingRequestDto
@@ -14,7 +14,7 @@ class GreetingController {
         val name = helloReq.name
         return CommonResponse(
             statusCode = 200,
-            message = "Hello $name"
+            message = "H2 $name"
         )
     }
 }

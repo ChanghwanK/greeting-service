@@ -1,5 +1,6 @@
 package com.example.greetingservice.hello.interfaces.controller
 
+import com.example.greetingservice.hello.interfacses.controller.GreetingController
 import com.example.greetingservice.hello.interfacses.dto.GreetingRequestDto
 import com.fasterxml.jackson.databind.ObjectMapper
 import org.junit.jupiter.api.BeforeEach
